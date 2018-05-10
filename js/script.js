@@ -77,7 +77,7 @@
 		
 		//Show Sidebar
 		hiddenBarOpener.mouseenter(function () {
-			hiddenBar.addClass('visible-sidebar').fadeIn();
+			hiddenBar.addClass('visible-sidebar').fadeIn(100);
 		});
 		hiddenBarOpener.mouseleave(function () {
 			hiddenBar.fadeOut();
@@ -399,4 +399,18 @@
 
 	$('.header-intro').height($(window).height());
 
+
+	$("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:true,
+        slideSpeed:1000,
+        singleItem:true,
+        transitionStyle:"goDown",
+        navigationText:["",""],
+        autoPlay:false
+    });
 })(window.jQuery);
