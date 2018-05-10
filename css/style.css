@@ -5050,5 +5050,25 @@ img{
         content: "";
     }
 }
-  
+ 
+.owl-nav {
+	display: list-item!important;
+	width: auto!important;
+	left: auto!important;
+	right: 0
+}
+.owl-nav  .owl-prev, .owl-nav  .owl-next{
+position: static!important;
+
+}
+.testimonial-section .owl-nav .owl-prev, .testimonial-section .owl-nav .owl-next{
+	color: #fff
+}
+.owl-nav  .owl-next{
+
+}
+.owl-prev:before, .owl-next:before{
+	color: #fff;
+	background-color: #24a5dc
+}
  
