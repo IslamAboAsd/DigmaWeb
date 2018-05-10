@@ -76,8 +76,11 @@
 		$('.hidden-bar-wrapper').mCustomScrollbar();
 		
 		//Show Sidebar
-		hiddenBarOpener.hover(function () {
-			hiddenBar.addClass('visible-sidebar');
+		hiddenBarOpener.mouseenter(function () {
+			hiddenBar.addClass('visible-sidebar').fadeIn();
+		});
+		hiddenBarOpener.mouseleave(function () {
+			hiddenBar.fadeOut();
 		});
 		
 		//Hide Sidebar

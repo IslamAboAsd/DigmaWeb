@@ -1104,7 +1104,7 @@ img{
 
 .main-slider .social-icon-one{
 	position:fixed;
-	top:170px;
+	bottom:170px;
 	left:10px;
 	z-index:10;
 	cursor: pointer;
@@ -4869,16 +4869,16 @@ img{
 	border-radius: 3px 3px 15px 15px
 }
 .blog-card {
-	width: 534px;
-	height: 325px;
+	
 	position: absolute;
-	top:122px;
+	top:242px;
 	left: 57%;
 	margin: -250px 0 0 -175px;
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 	text-align: center;
+	padding: 30px
 	}
   .blog-card.spring-fever {
 	/* background-image: url(../images/main-slider/content-image-1.png); */
@@ -4886,40 +4886,23 @@ img{
     background-color: #caefff;
     background-repeat: no-repeat;
 	}
-  .blog-card .color-overlay {
-	/* Rectangle 11: */
-	background: rgba(84, 104, 110, 0.4);
-	width: 534px;
-	height: 464px;
-	position: absolute;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	
-	}
-  .blog-card .gradient-overlay {
-	/* bg-gradient: */
-	
-	width: 350px;
-	height: 500px;
-	position: absolute;
-	top: 350px;
-	left: 0;
-	z-index: 15;
-  }
-  .blog-card:hover .card-info {
-	opacity: 1;
-	bottom: 120px;
-  }
+  
+  
+  
  
   .title-content {
+	display: inline;
 	text-align: center;
-	margin: 40px 0 0 110px;
-	position: absolute;
 	z-index: 20;
-	width: 100%;
-	top: 0;
-	left: 0;
+	width: 50%;
+	float: left;
+  }
+  .info-content{
+	
+    display: inline;
+	width: 50%;
+	float:right;
+	
   }
   
   .blog-card h3 {
