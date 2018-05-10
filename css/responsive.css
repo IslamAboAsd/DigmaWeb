@@ -604,8 +604,6 @@
 		float:none !important;
 		margin:0px !important;
 		width:100% !important;
-		background:#202020;
-		border:1px solid #202020;
 		border-top:none;
 	}
 	
@@ -687,8 +685,8 @@
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
 		padding:12px 20px !important;
 		line-height:22px;
-		color:#ffffff;
-		background:#202020;
+		color:#666;
+	
 		text-align:left;
 		min-height:0px;
 	}
