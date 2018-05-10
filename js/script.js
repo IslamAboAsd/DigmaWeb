@@ -405,7 +405,7 @@
         itemsDesktop:[1000,2],
         itemsDesktopSmall:[979,1],
         itemsTablet:[768,1],
-        pagination:true,
+        pagination:false,
         navigation:true,
         slideSpeed:1000,
         singleItem:true,
