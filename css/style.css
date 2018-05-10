@@ -4949,5 +4949,15 @@ img{
 	line-height: 18px;
   }
   
+  /* contact */
+
+  .map-outer{
+	  text-align: center;
+	  padding: 15px
+  }
+  .map-outer iframe{
+	  min-width: 95%;
+	  text-align: center
+  }
   
  
