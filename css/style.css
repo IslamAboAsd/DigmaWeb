@@ -1338,7 +1338,7 @@ img{
 ***/
 
 .hidden-bar{
-	position: fixed;
+	position: relative;
 	top: 0;
 	width: 320px;
 	height: 100%;
@@ -1375,7 +1375,7 @@ img{
 	height: 40px;
 	position: absolute;
 	right:-202px;
-	top:15px;
+	top:-120px;
 	background: none;
 	color: #ffffff;
 	border-radius: 0px;
@@ -4872,8 +4872,8 @@ img{
 	width: 534px;
 	height: 325px;
 	position: absolute;
-	top: 41%;
-	left: 56%;
+	top:122px;
+	left: 57%;
 	margin: -250px 0 0 -175px;
 	overflow: hidden;
 	border-radius: 10px;
