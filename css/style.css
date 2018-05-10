@@ -1355,7 +1355,7 @@ img{
 }
 
 .hidden-bar.right-align {
-	left: -400px;
+	left: -600px;
 }
 
 .hidden-bar.right-align.visible-sidebar{
@@ -1363,7 +1363,7 @@ img{
 }
 
 .hidden-bar.right-align {
-	left: -400px;
+	left: -600px;
 }
 
 .hidden-bar.right-align.visible-sidebar {
@@ -1374,8 +1374,8 @@ img{
 	width: 40px;
 	height: 40px;
 	position: absolute;
-	right:-204px;
-	top:12px;
+	right:-202px;
+	top:15px;
 	background: none;
 	color: #ffffff;
 	border-radius: 0px;
@@ -4872,7 +4872,7 @@ img{
 	width: 534px;
 	height: 325px;
 	position: absolute;
-	top: 28.5%;
+	top: 41%;
 	left: 56%;
 	margin: -250px 0 0 -175px;
 	overflow: hidden;
