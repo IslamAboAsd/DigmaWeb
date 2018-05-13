@@ -271,6 +271,8 @@
 	.gallery-section{
 		padding-top: 25px
 	}
+	
+	
 }
 
 @media only screen and (max-width: 1023px){
@@ -691,7 +693,7 @@
 		line-height:22px;
 		color:#666;
 	
-		text-align:left;
+		text-align:center;
 		min-height:0px;
 	}
 	
@@ -988,6 +990,9 @@
 	
 	.gallery-section{
 		padding: 0
+	}
+	.gallery-section .filters .filter-tabs{
+		text-align:left;
 	}
 	
 }
