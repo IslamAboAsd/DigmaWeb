@@ -5083,8 +5083,8 @@ position: static!important;
 }
 
 .owl-prev:before, .owl-next:before{
-	color: #fff;
-	background-color: #24a5dc;
+	color: #24a5dc;
+	border: 2px solid #24a5dc;
 	padding: 10px;
 	margin-top: 5px;
 	display: inline-block;
