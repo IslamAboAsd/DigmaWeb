@@ -237,7 +237,7 @@
 	.gallery-section,
 	.gallery-section.style-two,
 	.testimonial-section{
-		padding:80px 0px 40px;	
+		padding:0;	
 	}
 	
 	.about-section-two{
@@ -266,6 +266,10 @@
 		display:block !important;
 		visibility:hidden;
 		opacity:0;
+	}
+	
+	.gallery-section{
+		padding-top: 25px
 	}
 }
 
@@ -980,6 +984,10 @@
 	
 	.main-slider .text{
 		font-size:12px;
+	}
+	
+	.gallery-section{
+		padding: 0
 	}
 	
 }

@@ -518,7 +518,7 @@ img{
 .main-menu .navigation > li{
 	position:relative;
 	float:left;
-	margin-left:35px;
+	margin-right:10px;
 }
 
 .main-menu .navigation > li:last-child{
@@ -528,7 +528,7 @@ img{
 .main-header .sticky-header .main-menu .navigation > li{
 	margin:0px;
 	border:0px;
-	margin-left:30px;
+	
 }
 
 .main-menu .navigation > li > a{
