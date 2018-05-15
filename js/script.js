@@ -18,9 +18,9 @@ $(".navbar-nav>li>a").on('click', function(event) {
 	  // Using jQuery's animate() method to add smooth page scroll
 	  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 	  $('html, body').animate({
-		scrollTop: $(hash).offset().top - 120
+		scrollTop: $(hash).offset().top - 120,
 	  }, 1000, function(){
-		  $('.navbar-collapse').removeClass('in');
+		  $('.main-menu .collapse').removeClass('in');
 		// Add hash (#) to URL when done scrolling (default click behavior)
 	  });
 	} // End if
@@ -439,4 +439,13 @@ $(".navbar-nav>li>a").on('click', function(event) {
 
 	// triger nicescroll
 	$('html').niceScroll();
+
+
+	// header video
+	
+		$('.video-header, .main-slider ').height($(window).height());
+		$('.video-header, .main-slider ').width($(window).width());
+
+	
+	// $('.video-header, .main-slider ').height($(window).height());
 })(window.jQuery);

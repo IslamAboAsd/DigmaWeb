@@ -64,7 +64,8 @@
 	}
 	
 	.main-header{
-		position:relative;
+		position:fixed;
+		background-color: rgba(255, 255, 255, 0.945)
 	}
 	
 	.header-style-two{
@@ -102,7 +103,7 @@
 	}
 	
 	.main-header .header-upper{
-		padding:0px 15px;
+		padding:0;
 	}
 	
 	.main-slider h2{
@@ -257,6 +258,9 @@
 	.gallery-section-two .filters .filter-tabs{
 		margin-bottom:50px;	
 	}
+	.video-header{
+		position: static;
+	}
 	
 }
 
@@ -271,6 +275,7 @@
 	.gallery-section{
 		padding-top: 25px
 	}
+
 	
 	
 }
@@ -520,7 +525,7 @@
 		display: block;
 		width: 100%;
 		text-align:center;
-		margin-bottom:20px;
+		
 	}
 	
 	.main-header .header-upper .upper-column{
@@ -587,7 +592,7 @@
 		display:block;
 		text-align:right;
 		width:100%;
-		padding:13px 0px 14px;
+		padding:10px 0px 14px;
 		right:0px;
 		z-index:12;
 	}
@@ -595,11 +600,11 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:7;
-		border:1px solid #202020;
+		border:3px solid #fff;
 		float:none;
 		margin:0px 0px 0px 0px;
-		border-radius:3px;
-		background:#202020;
+		border-radius:0px;
+		background:#2779ff;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
@@ -980,7 +985,7 @@
 	}
 	
 	.main-slider h2{
-		font-size:24px;
+		font-size:40px;
 		border:none;
 	}
 	
