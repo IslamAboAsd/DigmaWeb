@@ -145,9 +145,6 @@ p,.text{
 	
 }
 
-.strike-through{
-	
-}
 
 .auto-container{
 	position:static;
@@ -371,7 +368,7 @@ img{
 ***/
 
 .main-header{
-	position: absolute;
+	position: sticky;
     left: 0px;
     top: 0px;
     z-index: 99;
@@ -1053,9 +1050,6 @@ img{
 	line-height:24px;
 }
 
-.ui-menu-item:hover{
-}
-
 /*** 
 
 ====================================================================
@@ -1168,7 +1162,7 @@ img{
 }
 
 .main-slider .metis.tparrows:hover{
-	background:##2779ff;
+	background:#2779ff;
 	color:#ffffff;	
 }
 
@@ -1602,10 +1596,6 @@ img{
 	font-family: 'Consolas', sans-serif;
 }
 
-.gallery-section .filters .filter.active,
-.gallery-section .filters .filter:hover{
-
-}
 
 .gallery-block.mix{
 	display:none;
@@ -2654,11 +2644,6 @@ img{
 .gallery-section-two .filters .filter-tabs .filter:last-child{
 	padding-right:0px;
 	margin-right:0px;
-}
-
-.gallery-section-two .filters .filter-tabs .filter.active,
-.gallery-section-two .filters .filter-tabs .filter:hover{
-
 }
 
 /*** 
@@ -4896,17 +4881,15 @@ img{
   
  
   .title-content {
-	display: inline;
+	display: inline-block;
 	text-align: center;
 	z-index: 20;
 	width: 50%;
-	float: left;
   }
   .info-content{
 	
-    display: inline;
+    display: inline-block;
 	width: 50%;
-	float:right;
 	
   }
   
@@ -4914,7 +4897,7 @@ img{
 	font-size: 20px;
 	font-weight: 500;
 	letter-spacing: 2px;
-	color: ##636368;
+	color: #636368;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 0;
   }
@@ -5113,11 +5096,11 @@ position: static!important;
 }
 
  .video-header .content {
-    position:absolute;
-    bottom: 40%;
+	position: absolute;
+    bottom: 55%;
     width: 100%;
     padding: 20px;
-}
+    text-align: center;}
 
 .collapse.in{
 	position: absolute;
